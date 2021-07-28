@@ -1,0 +1,173 @@
+body{
+    background-color: #362222;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ body{
+        font-weight: 500;
+        background-color: #362222;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .end{
+    display: block;
+    width: 400px;
+    top: 250px;
+    background-color:#753422;
+    border: #FFEBC9 solid 5px;
+    left: 50%; 
+    position: absolute;
+    margin-left: -200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    border-radius: 5px;
+    color:white;
+    font-size: 15px;
+    border-radius: 20px;
+}
+button {
+    position: absolute;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    background-color: #362222;
+    border: #FFEBC9 solid 5px;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+.text {
+    font-size: large;
+}
+#btn1{
+    top : 400px;
+    left : 200px;
+}
+#btn2{
+    top:400px;
+    left : 370px;
+}
+p{
+    text-decoration: solid;
+    text-transform: uppercase;
+    font-size: 30px;
+    width: fit-content;
+    margin-left:50px;
+}
+.block{
+    padding-bottom: 20px;
+}
+#title{
+    position: absolute;
+    left: 50%;
+    top: 60px;
+    color: white;
+    margin-left: -110px;
+    font-size: 50px;
+}
+#basePart{
+    visibility: visible;
+}
+#tablePart{
+    visibility: hidden;
+}
+#turn{
+    position:absolute;
+    left: 50%;
+    margin-left: -25px;
+    text-align: center;
+    top: 150px;
+    color: white;
+    font-size: 20px;
+}
+td{
+    border: 2px solid white;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 70px;
+    color: aliceblue;
+    cursor: pointer;
+}
+#retry{
+    text-transform: uppercase;
+    position: absolute;
+    background-color: #362222;
+    color: antiquewhite;
+    text-decoration: none;
+    left: 50%;
+    border: #FFEBC9 solid 5px;
+    border-radius: 10px;
+    margin-left: -70px;
+    padding: 10px 20px;
+    margin-top: -50px;
+    text-align: center;
+}
+#title{
+    position: absolute;
+    left: 50%;
+    top: 60px;
+    color: white;
+    margin-left: -110px;
+    font-size: 50px;
+}
+p{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    left: 50%;
+}
+.common{
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    text-transform: uppercase;
+    font-size: large;
+    background-color: purple;
+    color: antiquewhite;
+    left: 50%;
+    top: 600px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#playWithAi{
+    margin-left: -120px;
+}
+table{
+    border-collapse: collapse;
+    position:absolute;
+    left: 50%;
+    margin-left: -155px;
+    top: 250px;
+}
+table tr:first-child td{
+    border-top: 0;
+}
+table tr:last-child td{
+    border-bottom: 0;
+}
+table tr td:first-child{
+    border-left:0 ;
+}
+
+table tr td:last-child{
+    border-right:0 ;
+}
+.text{
+    padding-bottom: 60px;
+    text-align: center;
+}
+.endgame{
+    display: none;
+    width: 400px;
+    top: 300px;
+    background-color:#753422;
+    opacity: 98%;
+    position:absolute;
+     left: 50%; 
+    margin-left: -200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    color:#FFEBC9;
+    font-size: 2em;
+}
